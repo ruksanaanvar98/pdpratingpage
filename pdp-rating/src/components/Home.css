@@ -1,0 +1,329 @@
+.home {
+    overflow: hidden;
+}
+
+.content h5 {
+    font-size: 14px;
+    font-weight: lighter;
+    padding-left: 10px;
+
+}
+
+.container .content {
+    margin-top: 20px;
+}
+
+.home .container .sub-divs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.2rem;
+    padding: 2rem;
+}
+
+.sub-div1 {
+    height: 500px;
+    width: 350px;
+
+
+}
+
+.div12 {
+    border: 0.3px solid rgb(238, 231, 231);
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    font-size: 9px;
+    padding-bottom: 9px;
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-left: 5px;
+    line-height: 15px;
+
+}
+
+.warning {
+    width: 20px;
+    height: 20px;
+
+}
+
+.chohibared {
+    width: 298px;
+    height: 298px;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.sub-div2 {
+    height: 500px;
+    width: 450px;
+    padding-top: 10px;
+
+}
+
+.sub-div2 h5 {
+    padding-left: 0%;
+}
+
+.star-img {
+    padding-top: 10px;
+}
+
+.star-img a {
+    color: brown;
+
+}
+
+.star-img span {
+    color: brown;
+    font-size: 13px;
+}
+
+.after-star {
+    font-weight: lighter;
+    font-size: 13px;
+    padding-top: 10px;
+    color: rgb(169, 169, 236);
+}
+
+.Product-Description {
+    font-size: 9.5px;
+    padding-top: 15px;
+    font-weight: lighter;
+    letter-spacing: 0px;
+    line-height: 13px;
+    color: #7e7a7a;
+}
+
+.in-Stock {
+    padding-top: 25px;
+    color: rgb(71, 204, 71);
+}
+
+.in-Stocksub {
+    display: inline;
+    display: flex;
+    padding-top: 15px;
+    font-size: 12px;
+    color: black;
+}
+
+.btn1 {
+    margin-left: 10px;
+    width: 70px;
+    height: 24px;
+    /* UI Properties */
+    background: #F1EEE9 0% 0% no-repeat padding-box;
+    border: 2px solid #E6DCD0;
+    border-radius: 5px;
+}
+
+.btn2 {
+    margin-left: 10px;
+    width: 73px;
+    height: 24px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 14px/18px;
+    background: #faf9f8 0% 0% no-repeat padding-box;
+    border: 2px solid #E6DCD0;
+    letter-spacing: 0px;
+    border-radius: 5px;
+    color: #46402F;
+}
+
+.Product-Details {
+    display: grid;
+    padding-top: 17px;
+}
+
+.Brand {
+
+    padding-top: 19px;
+    border-top: 1px solid rgb(226, 223, 223);
+}
+
+.Brand,
+.Line,
+.Manufacture,
+.Origin,
+.Ring,
+.Shape,
+.Size,
+.Wapper {
+    border-bottom: .03px solid rgb(248, 243, 243);
+    font-weight: lighter;
+    font-size: 10px;
+    color: #7e7a7a;
+    padding: 5px;
+}
+
+.Brand spam {
+    padding-left: 88px;
+}
+
+.Line spam {
+    padding-left: 97px;
+}
+
+.Manufacture spam {
+    padding-left: 52px;
+}
+
+.Origin spam {
+    padding-left: 85px;
+}
+
+.Ring spam {
+    padding-left: 95px;
+}
+
+.Shape spam {
+    padding-left: 85px;
+}
+
+.Size spam {
+    padding-left: 97px;
+}
+
+.Wapper spam {
+    padding-left: 78px;
+}
+
+
+.sub-div3 {
+    height: 400px;
+    width: 300px;
+
+    border: .1px solid rgb(224, 214, 214);
+}
+
+.div31 {
+    width: 300px;
+    height: 50px;
+    border-bottom: .1px solid rgb(236, 229, 229);
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.div31 b {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.offbtn {
+    padding: 5px;
+    width: 74px;
+    height: 24px;
+    background: #f8cc1d 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.Tax spam {
+    padding-left: 200px;
+}
+
+.Shipping spam {
+    padding-left: 170px;
+}
+
+.Truck spam {
+    padding-left: 150px;
+}
+
+.Quantity spam {
+    padding-left: 170px;
+}
+
+.Estimated-Delivery spam {
+    padding-left: 120px;
+}
+
+.Tax,
+.Shipping,
+.Quantity,
+.Estimated-Delivery,
+.Truck {
+    font-weight: bolder;
+    font-size: 11px;
+    color: black;
+    padding: 8px;
+}
+
+.cart-btn {
+    margin-top: 30px;
+    margin-left: 14px;
+}
+
+.wish-btn {
+    margin-top: 15px;
+    margin-left: 14px;
+}
+
+.black-btn {
+    width: 260px;
+    height: 35px;
+    /* UI Properties */
+    background: #030303 0% 0% no-repeat padding-box;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.white-btn {
+    width: 260px;
+    height: 33px;
+    /* UI Properties */
+    background: white 0% 0% no-repeat padding-box;
+    color: black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Truck a {
+    color: rgb(97, 9, 9);
+    font-size: 11px;
+    font-weight: lighter;
+
+}
+
+.inside {
+    width: 45px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid #4b8ba8;
+    border-radius: 5px;
+}
+.last-link
+{
+    margin-top: 18px;
+    margin-left: 60px;
+  
+
+}
+.last-link a{
+    color: brown;
+    font-size: 10px;
+}
+@media screen and (max-width:1050px) {
+    .home {
+        margin: 1rem 0;
+    }
+
+    .home .container .sub-divs {
+        grid-template-columns: 1fr;
+        grid-gap: .5rem;
+    }
+
+    .container .content {
+        width: 100%;
+    }
+}
